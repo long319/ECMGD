@@ -39,9 +39,19 @@ Note that the default parameters may not be the best to reproduce our results in
 
 
 ## Dataset
+Please unzip the datasets folders saved in ```./data/HeteGraph.7z``` and ```./data/Multi-view.7z``` first.
 
-Please unzip the datasets folders first.
-
-Saved in ./data/datasets/datasets.7z
-
-*Please feel free to email me for the four large datasets or any questions.*
+```
+data/
+│
+├── Multi-view/
+│   ├── BDGP.mat
+│   ├── HW.mat
+│   ├── MNIST10k.mat
+│
+└── HeteGraph/
+    ├── IMDB
+    ├── YELP
+    └── ACM
+```
+ 
