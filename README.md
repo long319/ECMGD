@@ -3,7 +3,7 @@ Implementation of ECMGD in our paper: Towards Multi-view Consistent Graph Diffus
 
 
 ====
-This is the Pytorch implementation of IMvGCN proposed in our paper:
+This is the Pytorch implementation of ECMGD proposed in our paper:
 
 ![framework](./framework.png)
 
