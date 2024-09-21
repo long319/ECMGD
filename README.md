@@ -5,7 +5,7 @@ Implementation of ECMGD in our paper: Towards Multi-view Consistent Graph Diffus
 ====
 This is the Pytorch implementation of ECMGD proposed in our paper:
 
-![framework](./framework.png)
+![framework](./framework.jpg)
 
 ## Requirement
 
@@ -17,31 +17,26 @@ This is the Pytorch implementation of ECMGD proposed in our paper:
   * Texttable == 1.7.0
   * Tqdm == 4.64.2
 
-## Usage
-
+## Quick Start
+Unzip the dataset files
 ```
-python main.py
+unzip ./data/datasets.7z
+```
+For multi-view semi-supervised classification task, run 
+```
+python main.py --dataset BDGP
+```
+For heterogeneous graph node classification task, run 
+```
+python main_Iso.py --dataset ACM
+```
+For incomplete multi-view semi-supervised classification task, run
+```
+python main.py --dataset BDGP --Miss_rate 0.1
 ```
 
-  * --device: gpu number or 'cpu'.
-  * --path: path of datasets.
-  * --dataset: name of datasets.
-  * --seed: random seed.
-  * --fix_seed: fix the seed or not.
-  * --n_repeated: number of repeat times.
-  * --lr: learning rate.
-  * --weight_decay: weight decay.
-  * --ratio: label ratio.
-  * --num_epoch: number of training epochs.
-  * --layer: hyperparameter $K$.
-  * --alpha: hyperparameter $\alpha$.
+Note that the default parameters may not be the best to reproduce our results in the paper.
 
-All the configs are set as default, so you only need to set dataset.
-For example:
-
- ```
- python main.py --dataset 3Sources
- ```
 
 ## Dataset
 
