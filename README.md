@@ -54,4 +54,16 @@ data/
     ├── YELP
     └── ACM
 ```
+
+## Reference
+```
+@inproceedings{10.1145/3664647.3681258,
+author = {Lu, Jielong and Wu, Zhihao and Chen, Zhaoliang and Cai, Zhiling and Wang, Shiping},
+title = {Towards Multi-view Consistent Graph Diffusion},
+year = {2024},
+doi = {10.1145/3664647.3681258},
+booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
+pages = {186–195},
+}
+```
  
